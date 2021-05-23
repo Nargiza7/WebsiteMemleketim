@@ -1,0 +1,543 @@
+*{
+    box-sizing: border-box;	
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+}
+
+#menu{
+    height:80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color:#003666;
+    float:left;
+}
+
+nav{
+    float:right;
+    line-height:80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:#003666;
+}
+
+nav a:hover{
+    border-bottom:2px solid
+        #003666;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right:25px;
+    color:#003666
+        
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 18px;
+}
+        
+#anasayfa{
+    height:600px;
+    background-image:
+        url("../img/foto.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}   
+        
+#black{
+    height:600px;
+    background-color: black;
+    opacity: 0.3;
+}
+        
+#icerik{
+    position:absolute;
+    top:50%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:20px;
+}
+        
+#hakkimizda{
+    padding:60px;
+    text-align:center;
+    font-weight:600;
+}      
+
+h2{
+    font-size: 55px;
+    color:#003666;
+    text-shadow: 0px 1px 1px
+        black;
+    font-weight:600;
+}
+        
+.container{
+    width:1200px;
+    height:auto;
+    margin:auto;       
+}
+#sol{
+    float:left;
+    padding:20px;
+    font-size:30px;
+    width:800px;
+    color:#445c6e;
+}
+    
+#h5sol{
+    line-height:1.2;
+    font-size:20px;
+    font-weight:600;
+}
+
+#sag{
+    float:right;
+    padding:20px;
+    font-size:30px;
+    width:600px;
+    color:#445c6e;
+}
+
+#h5sag{
+    line-height:1.2;
+    font-size:20px;
+    font-weight:600;
+}
+
+#sol{
+    float:left;
+    padding:20px;
+    font-size:30px;
+    width:600px;
+    color:#445c6e;
+}
+    
+#h5sol{
+    line-height:1.2;
+    font-size:20px;
+    font-weight:600;
+}
+
+#egitimbilgilerim{	
+	padding: 50px;
+	text-align: center;
+	height:700px
+}
+
+#h1{
+    font-size: 55px;
+    color:#4b0082;
+    text-shadow: 0px 1px 1px
+        black;
+    font-weight:600;
+}
+
+
+.about,.skills,
+.education,.personalinfo,
+.contact,.interest{
+	padding:30px;
+	min-height:270px;	
+}
+
+.education,.personalinfo,
+.contact, .interest{
+	margin-top:30px;
+}
+
+header{
+	text-align: center;
+	min-height"400px";
+	overflow: hidden;
+	position:relative;
+	padding-top:80px;
+	padding-bottom:100px;
+	
+}
+
+header img{
+	display: inline-block !important;
+	border: 3px solid white;
+	padding: 5px;
+}
+
+header h2{
+	padding-top:40px;
+}
+
+.about{
+	background:#f8f9fa;
+}
+
+.skills{
+	background:#7b68ee;
+	color:snow;
+	text-align:left;
+	
+}
+.skills.progress{
+	border-radius:0px;
+	height:4px;
+}
+
+.skills.progress.progress-bar-primary{
+	background:#f5f5f5;
+}
+
+.skills strong{
+	display: inline-block;
+	font-weight:normal;
+	padding-bottom:6px;
+}
+
+.education{
+	background:#7b68ee;
+	color:#f5f5f5;
+}
+
+.education.education-contant{
+	padding-bottom:14px;
+}
+
+.education h5{
+	display: inline-block;
+}
+.education span{
+	margin-right:10px;
+	padding-left:20px;
+	
+}
+
+.personalinfo{
+	background:#f8f9fa;
+	margin-top:27px;
+	text-align: left;
+}
+.personalinfo {
+	padding:10px;
+}
+
+.personalinfo {
+	padding-bottom:6px;
+}
+
+.contact{
+	background:#f8f9fa;
+	text-align: left;
+}
+
+
+.interest{
+	background:#7b68ee;
+	color:#f5f5f5;
+}
+
+.interest-contant{
+	padding-bottom:14px;
+}
+
+
+.interest span{
+	margin-right:10px;
+	padding-left:20px;
+	
+}
+
+.interest ul {
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.interest ul li {
+	list-style: none;
+	color:#fff;
+	font-weight:500;
+	margin:10px 0;
+}
+
+#mirasimiz{
+	padding:80px;
+	text-align:center;
+    height:1000px;
+	background-size: cover;
+	
+}
+
+h1{
+    font-size: 55px;
+    color:#003666;
+    text-shadow: 0px 1px 1px
+        black;
+    font-weight:600;
+}
+        
+
+.slider {
+width: 1000px;
+position: relative;
+padding-top: 320px;
+margin: 110px auto;
+height: 100px;
+box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.8);
+}
+
+.slider > img {
+position: absolute;
+left: 0;
+top: 0;
+transition: all 0.5s;
+width: 100%;
+height: 420px;
+}
+
+.slider input[name='animate'] {
+display: none;
+}
+
+.slider label {
+margin: 120px auto auto 120px;
+float: left;
+cursor: pointer;
+transition: all 0.5s;
+opacity: 0.6;
+}
+
+.slider label img {
+display: block;
+}
+
+.slider input[name='animate']:checked+label {
+border-color: #fff;
+opacity: 1;
+}
+
+.slider input[name='animate'] ~ img {
+opacity: 0;
+transform: scale(1.1);
+}
+
+.slider input[name='animate']:checked+label+img {
+opacity: 1;
+transform: scale(1);
+}
+
+#login{
+	background: url("../img/log.jpg");
+	background-size: cover;
+	padding:100px;
+	height:800px;;
+    text-align:center;
+}
+
+h1{
+    font-size: 55px;
+    color:#003666;
+    text-shadow: 0px 1px 1px
+        black;
+    font-weight:600;
+}
+        
+.giris{
+	text-align:center;
+   display:inline;
+	padding:20px;
+}
+
+.giris h2{
+	margin:0 0 20px;
+	padding-top:50px;
+	font-size:30px;
+	text-transform: uppercase;
+	
+}
+.giris .pc{
+	text-align: center;
+	position:relative;
+	width:100%;
+	margin-bottom:15px;
+	
+}
+
+.giris .pc input {
+	height:60px;
+	width:50%;
+	padding:0 20px;
+	box-sizing: border-box;
+	font-size:none;
+	border:1px solid #000;
+}
+.giris .pc span{
+	position: absolute;
+	top:12px;
+	left:280px;
+	padding:0;
+	transition:0.5s;
+	pointer-events: none;
+	background:#fff;
+	text-transform: uppercase;
+}
+
+.giris .pc input:focus ~ span,
+.giris .pc input:valid ~ span{
+	top:-12px;
+	left:12px;
+	font-size:12px;
+	padding:2px 4px;
+	border: 1px solid #000
+    background:#445c6e;
+}
+
+.giris .pc input[type="submit"] {
+	background:#445c6e;
+	border: none;
+	box-shadow: none;
+	text-transform: uppercase;
+	cursor:painter;
+	font-weight:600;
+}
+
+.giris .pc input[type="submit"]{
+	background:#445c6e;
+}
+
+giris a{
+	color:#fff;
+	text-decoration: none;
+	display:block;
+	text-align:right;
+	color:#445c6e;
+}
+
+giris a span{
+	color:#445c6e;
+	font-weight:600;
+}
+
+#iletisim{
+	background: url("../img/ilet.jpg");
+	background-size: cover;
+	padding:150px;
+	height:800;
+text-align:center;
+}
+
+#h1iletisim{
+	color:#445c6e;
+}
+
+#iletisimopak{
+	
+	padding:30px 20px;
+	border-radius:5px;
+	margin-bottom:50px;
+	height:500px;
+		
+}
+
+#formgroup{
+	width:700px;
+	float:left;
+	height:500px;
+	text-align:left;
+}
+
+#solform{
+	width:50%;
+	float:left;
+	padding-right:10px;
+}
+
+.form-control{
+	width:100%
+    padding:20px;
+	font-size:15px;
+	line-height:1.5;
+	color:#495057;
+	background-color:white;
+	margin:10px;
+	border-radius:5px;
+	border: 1px solid #ced4da;
+}
+
+textarea{
+	font-family:Arial;
+}
+
+input[type="submit"]{
+	cursor:pointer;
+	background-color:#445c6e;
+	font-size:18px;
+	letter-spacing:1px;
+	padding:10px 30px;
+	color:white;
+	border:2px solid white;
+	border-radius:5px;
+	margin-left:10px;
+	margin-top:10px; 
+}
+
+#adres{
+	width:200px;
+	float:right;
+	padding:20px;
+	height:100px;
+	text-align:left;
+}
+
+#adresbaslik{
+	font-size:30px;
+	color:#445c6e;
+}
+
+.adresp{
+	color:#445c6e;
+	font-size:15px;
+	letter-spacing:1.5px;
+}
+
+
+	
+.social{
+	color:#445c6e;
+	width:50px;
+	border:1px solid #445c6e;
+	padding:10px;
+	border-radius:5px;
+	margin:5px 10px;
+}
+
+.social:hover{
+	background-color:#f8f9fa;
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+	
